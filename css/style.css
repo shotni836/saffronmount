@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #16D5FF;
+    --primary: #5d2ca5;
     --secondary: #999999;
     --light: #F2F8FE;
     --dark: #111111;
@@ -46,7 +46,8 @@ h6,
 }
 
 .btn.btn-primary {
-    color: #FFFFFF;
+    color: var(--primary);
+    background-color: white;
 }
 
 .btn-square {
@@ -297,7 +298,7 @@ h6,
 }
 
 .accordion .accordion-body {
-    padding: 15px 0 0 0;
+    padding: 15px;
 }
 
 
@@ -349,4 +350,27 @@ h6,
 
 .footer .copyright a:hover {
     color: var(--dark);
+}
+.bg-color-1 {
+    background: #001232;
+}
+.bg-color-2 {
+    background: rgba(3, 22, 55, 0.902);
+}
+
+.slideInDown {
+    color: white;
+}
+.display-6, .display-4, .white-color {
+    color: white;
+}
+
+.btn.btn-primary:hover {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: white;
+}
+
+.add-bright {
+    filter: brightness(2.5);
 }
